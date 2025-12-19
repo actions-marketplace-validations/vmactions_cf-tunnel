@@ -11,7 +11,7 @@ on: [push]
 
 jobs:
   testsolaris:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     name: Test a cf tunnel
     steps:
     - uses: actions/checkout@v4
